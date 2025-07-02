@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "752477583659",
+    "project_id": "switchero-cd373",
+    "storage_bucket": "switchero-cd373.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752477583659:android:cbb39c052111d6602ded6e",
+        "android_client_info": {
+          "package_name": "com.switchero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752477583659-68jk2p1i2j43s11pcacosgo3l1cm3ho3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.switchero",
+            "certificate_hash": "bf4a207f115385ed5b01eea8f84e6aad9166a834"
+          }
+        },
+        {
+          "client_id": "752477583659-dsi1seh5cbboe1qhs4pm10vp00d4i4l1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.switchero",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "752477583659-j363uou5edb2rund6a5v6nbot4uk6f1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.switchero",
+            "certificate_hash": "821179df520aed17828112b9698dd04538375964"
+          }
+        },
+        {
+          "client_id": "752477583659-90a2dgd5ln0t9sigelhsjlmem1fv62md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6PgySHi4u_Vz20wOKeKww3zjF4h4Rvh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752477583659-90a2dgd5ln0t9sigelhsjlmem1fv62md.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "752477583659-1nb02q1vmbe9e5187k5tjligvc4tlopm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.switchceroo.ios",
+                "app_store_id": "6475202453"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

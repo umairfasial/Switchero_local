@@ -1,0 +1,53 @@
+import { Modal, StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import Colors from '../theme/colors';
+import { widthPercentageToDP as wp } from './Responsiveui';
+
+const CustomModal = ({ modalVisible, setModalVisible, children, height, customModalStyle, animationType = 'slide' }) => {
+  return (
+    <Modal
+      animationType={animationType}
+      transparent={true}
+      visible={modalVisible}
+      onRequestClose={() => {
+
+        setModalVisible(!modalVisible);
+      }}>
+      <View style={[styles.centeredView, customModalStyle]}>
+        <View style={{ ...styles.modalView, height: height ? height : 'auto' }}>
+          {children}
+        </View>
+      </View>
+    </Modal>
+  )
+}
+
+export default CustomModal
+
+const styles = StyleSheet.create({
+
+  centeredView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)'
+  },
+  modalView: {
+    backgroundColor: Colors.backgroundColor,
+    borderRadius: 20,
+    padding: 20,
+    paddingTop: 30,
+    paddingBottom: 15,
+
+    width: wp(90),
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+})

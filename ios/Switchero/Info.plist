@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Switcheroo App</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.5.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.752477583659-1nb02q1vmbe9e5187k5tjligvc4tlopm</string>
+				<string>fb1243685333293311</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>1243685333293311</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>FacebookClientToken</key>
+	<string>ab7e42650a3b7fc608305fd1fc859ef9</string>
+	<key>FacebookDisplayName</key>
+	<string>Switcheroo</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Switcheroo wants access to your library to upload photos of your item.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Switcheroo wants access to your camera to take and upload photos of your item.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to match your with other items in your area</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to match your with other items in your area</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Switcheroo wants access to your library to upload photos of your item.</string>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+			<key>UsageDescription</key>
+			<string>We require disk space information to optimize storage usage by the app.</string>
+		</dict>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>UsageDescription</key>
+			<string>File timestamp access is needed to efficiently manage file caching and
+					updates.</string>
+		</dict>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>UsageDescription</key>
+			<string>User defaults are accessed for personalizing app settings based on user
+					preferences.</string>
+		</dict>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+			<key>UsageDescription</key>
+			<string>Access to system boot time is used for diagnostics and ensuring timely app
+					operations.</string>
+		</dict>
+	</array>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>Switcheroo wants access push notification</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string></string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

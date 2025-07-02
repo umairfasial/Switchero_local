@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>752477583659-1nb02q1vmbe9e5187k5tjligvc4tlopm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.752477583659-1nb02q1vmbe9e5187k5tjligvc4tlopm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>752477583659-68jk2p1i2j43s11pcacosgo3l1cm3ho3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDO26PzAPw0tAJ0MwAFlJFpAiMqrRoutEI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>752477583659</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.switchceroo.ios</string>
+	<key>PROJECT_ID</key>
+	<string>switchero-cd373</string>
+	<key>STORAGE_BUCKET</key>
+	<string>switchero-cd373.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:752477583659:ios:33723738ea5ea6512ded6e</string>
+</dict>
+</plist>
